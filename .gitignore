@@ -1,0 +1,68 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.ncrunch*
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Test results / coverage
+TestResults/
+coverage/
+*.trx
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# ASP.NET Core local development
+appsettings.Local.json
+appsettings.*.local.json
+secrets.json
+
+# User Secrets (normally stored outside the repo, but ignore local files if present)
+*.secrets.json
+
+# Local databases / SQL Server database files
+*.mdf
+*.ndf
+*.ldf
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.cache
+*.bak
+~$*
+
+# Publish output
+publish/
+PublishProfiles/
+*.pubxml.user
+
+# Docker local overrides
+docker-compose.override.yml
